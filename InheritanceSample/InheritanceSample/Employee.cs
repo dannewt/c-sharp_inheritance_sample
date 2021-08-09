@@ -8,31 +8,47 @@ namespace InheritanceSample
 {
     class Employee
     {
-        public string Name { get; set; }
-        public int Salary { get; set; }
-        public int Revenue { get; set; }
+        private string m_name;
+        private int m_salary;
+        private int m_revenue;
+
+        public string Name 
+        {
+            get { return m_name; }
+            set { m_name = value; } 
+        }
+        public int Salary
+        {
+            get { return m_salary; }
+            set { m_salary = value; }
+        }
+        public int Revenue
+        {
+            get { return m_revenue; }
+            set { m_revenue = value; }
+        }
 
 
         public Employee(string name, int salary)
         {
-            this.Name = name;
-            this.Salary = salary;
-            this.Revenue = 0;
+            m_name = name;
+            m_salary = salary;
+            m_revenue = 0;
         }
 
         public void Work()
         {
-            Console.WriteLine("Employee: " + this.Name + " is working.");
+            Console.WriteLine("Employee: " + m_name + " is working.");
         }
 
         public void Pause()
         {
-            Console.WriteLine("Employee: " + this.Name + " is paused.");
+            Console.WriteLine("Employee: " + m_name + " is paused.");
         }
 
         public virtual void GenerateRevenue()
         {
-            this.Revenue = 150000;
+            m_revenue = 150000;
         }
 
     }
