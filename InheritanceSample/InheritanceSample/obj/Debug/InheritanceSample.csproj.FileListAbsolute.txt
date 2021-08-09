@@ -1,0 +1,7 @@
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\bin\Debug\InheritanceSample.exe.config
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\bin\Debug\InheritanceSample.exe
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\bin\Debug\InheritanceSample.pdb
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\obj\Debug\InheritanceSample.csproj.AssemblyReference.cache
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\obj\Debug\InheritanceSample.csproj.CoreCompileInputs.cache
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\obj\Debug\InheritanceSample.exe
+C:\Users\dnewt\source\repos\InheritanceSample\InheritanceSample\obj\Debug\InheritanceSample.pdb
